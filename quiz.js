@@ -2,7 +2,7 @@ const feedback = document.querySelector("#feedback");
 const btn = document.getElementById("submit-answer");
 
 function checkAnswer() {
-  const choice = document.querySelector("input[name]:checked");
+  const choice = document.querySelector("input[name='quiz']:checked");
   let correctAnswer = "4";
   let userAnswer = choice.value;
 
